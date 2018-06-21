@@ -506,7 +506,7 @@ You can define constants on a type rather than on an instance of that type using
 
 **Preferred:**
 ```swift
-enum Math {
+struct Math {
   static let e = 2.718281828459045235360287
   static let root2 = 1.41421356237309504880168872
 }
